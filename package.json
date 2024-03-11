@@ -1,0 +1,23 @@
+{
+  "name": "abracadabra",
+  "version": "1.0.1",
+  "description": "Servidor para desafío Abracadabra",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gperzal/Desafio-Abracadabra.git"
+  },
+  "author": "Guido Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gperzal/Desafio-Abracadabra/issues"
+  },
+  "homepage": "https://github.com/gperzal/Desafio-Abracadabra#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
