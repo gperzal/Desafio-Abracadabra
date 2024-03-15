@@ -1,0 +1,12 @@
+body {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.center-screen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -9,7 +9,7 @@ router.get('/abracadabra/usuarios', usuarioController.listarUsuarios);
 // Ruta para validar el usuario. Utiliza el middleware validarUsuario
 router.get('/abracadabra/juego/:usuario', usuarioController.validarUsuario, (req, res) => {
     // Si el middleware no redirige, este manejador enviará una respuesta afirmativa
-    res.send("Usuario validado exitosamente.");
+    res.sendFile(path.join(__dirname, '../views/validation.html'));
 });
 
 // Ruta para el juego del conejo
@@ -24,10 +24,20 @@ router.get('/abracadabra/conejo/:n', (req, res) => {
     }
 });
 
+// Ruta para servir index.html específicamente
+router.get('/index', (req, res) => {
+    res.sendFile(path.join(__dirname, '../views/index.html'));
+});
+
 
 // Ruta para la página 404
 router.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../views/404.html')); // Ajusta la ruta según sea necesario
 });
+
+
+
+
+
 
 module.exports = router;

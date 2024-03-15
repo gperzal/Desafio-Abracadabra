@@ -5,9 +5,10 @@ const routes = require('./routes/index');
 
 app.use(express.static('public'));
 
+
 // Ruta para servir index.html en la ruta principal
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views/index.html'));
+  res.sendFile(path.join(__dirname, 'views/home.html'));
 });
 
 // Usa las rutas definidas en routes/index.js

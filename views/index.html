@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Abracadabra</title>
   <link rel="stylesheet" href="./assets/css/styles.css">
+
 </head>
 
 <body>
@@ -13,37 +14,51 @@
   <!-- Galeria -->
   <h1> &#128048 Abracadabra &#128048</h1>
   <div class="galeria">
+
     <div class="sombrero">
-      <a target="_blank" href="/abracadabra/conejo/1">
+      <a href="javascript:void(0);" class="sombrero-link" data-numero="1">
         <img src="./assets/img/sombrero.png" alt="Cinque Terre" />
       </a>
+
       <h1>1</h1>
     </div>
 
     <div class="sombrero">
-      <a target="_blank" href="/abracadabra/conejo/2">
-        <img src="./assets/img/sombrero.png" alt="Forest" />
+      <a href="javascript:void(0);" class="sombrero-link" data-numero="2">
+        <img src="./assets/img/sombrero.png" alt="Cinque Terre" />
       </a>
+
       <h1>2</h1>
     </div>
 
     <div class="sombrero">
-      <a target="_blank" href="/abracadabra/conejo/3">
-        <img src="./assets/img/sombrero.png" alt="Northern Lights" />
+      <a href="javascript:void(0);" class="sombrero-link" data-numero="3">
+        <img src="./assets/img/sombrero.png" alt="Cinque Terre" />
       </a>
+
       <h1>3</h1>
     </div>
 
     <div class="sombrero">
-      <a target="_blank" href="/abracadabra/conejo/4">
-        <img src="./assets/img/sombrero.png" alt="Mountains" />
+      <a href="javascript:void(0);" class="sombrero-link" data-numero="4">
+        <img src="./assets/img/sombrero.png" alt="Cinque Terre" />
       </a>
+
       <h1>4</h1>
     </div>
   </div>
+  <!-- Modal -->
+  <div id="modals" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modalMensaje"></p>
+      <img id="modalImagen" src="" alt="Img ">
+    </div>
+  </div>
+  <!-- Home-->
+  <a class="btn" href="/">Home</a>
 
-
-
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

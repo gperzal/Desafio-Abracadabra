@@ -28,24 +28,23 @@ Este proyecto se ha desarrollado utilizando las siguientes tecnologías:
 Para ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona el repositorio en tu máquina local:
-    ```
-    git clone https://github.com/gperzal/Desafio-Abracadabra.git
-    ```
+   ```
+   git clone https://github.com/gperzal/Desafio-Abracadabra.git
+   ```
 2. Navega hasta el directorio del proyecto:
-    ```
-    cd Abracadabra
-    ```
+   ```
+   cd Abracadabra
+   ```
 3. Instala las dependencias:
-    ```
-    npm install
-    ```
+   ```
+   npm install
+   ```
 4. Inicia el servidor:
-    ```
-    npm start
-    ```
+   ```
+   npm start
+   ```
 5. Abre tu navegador y visita `http://localhost:3000` para ver la aplicación en funcionamiento.
 
 ## Enlace del Despliegue
 
 Este proyecto está desplegado en [Render] y puedes acceder a él a través de este enlace: [Enlace del Despliegue](https://desafio-abracadabra.onrender.com/)
-
