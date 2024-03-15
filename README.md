@@ -18,9 +18,9 @@ Este proyecto se ha desarrollado utilizando las siguientes tecnologías:
 - **Juego de Adivinación**: Los usuarios pueden intentar adivinar un número secreto para revelar la imagen oculta. Si adivinan incorrectamente, se les mostrará una imagen alternativa.
 
 ## Capturas de Diseño
-
+![Home](https://github.com/gperzal/Desafio-Abracadabra/blob/main/public/assets/img/screenshot/home.png)
 ![Página Principal](https://github.com/gperzal/Desafio-Abracadabra/tree/main/public/assets/img/screenshot/main.png)
-
+![Validacion de Usuario](https://github.com/gperzal/Desafio-Abracadabra/blob/main/public/assets/img/screenshot/validation.png)
 ![Error 404](https://github.com/gperzal/Desafio-Abracadabra/tree/main/public/assets/img/screenshot/main.png)
 
 ## Instalación y Uso
