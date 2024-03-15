@@ -19,9 +19,9 @@ Este proyecto se ha desarrollado utilizando las siguientes tecnologías:
 
 ## Capturas de Diseño
 ![Home](https://github.com/gperzal/Desafio-Abracadabra/blob/main/public/assets/img/screenshot/home.png)
-![Página Principal](https://github.com/gperzal/Desafio-Abracadabra/tree/main/public/assets/img/screenshot/main.png)
+![Página Principal](https://github.com/gperzal/Desafio-Abracadabra/blob/main/public/assets/img/screenshot/main.png)
 ![Validacion de Usuario](https://github.com/gperzal/Desafio-Abracadabra/blob/main/public/assets/img/screenshot/validation.png)
-![Error 404](https://github.com/gperzal/Desafio-Abracadabra/tree/main/public/assets/img/screenshot/main.png)
+![Error 404](https://github.com/gperzal/Desafio-Abracadabra/blob/main/public/assets/img/screenshot/404.png)
 
 ## Instalación y Uso
 
